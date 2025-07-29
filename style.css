@@ -1,0 +1,57 @@
+* {
+    font-family: roboto;
+    font-size: 1rem;
+}
+body {
+    background-color: black;
+}
+.post {
+    background-color: whitesmoke;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+}
+.post-header {
+    /* border: 1px solid red; */
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.logo {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+.name p {
+    line-height: 5px;
+}
+.menu {
+    margin-left: auto;
+    align-items: center;
+}
+#puntitos {
+    font-size: 40px;
+}
+.post-img {
+    width: 550px;
+}
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+.post-body {
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.post-icons {
+    /* border: 1px solid red; */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.post-icons div > i{
+    font-size: 30px;
+    margin-top: 15px;
+}
